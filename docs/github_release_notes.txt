@@ -1,0 +1,4 @@
+The .ssd is suitable for use with an emulator.
+
+The .txt file is a text copy of the program on the .ssd, provided for
+reference. ` characters in the text correspond to £ on the BBC.
