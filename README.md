@@ -22,8 +22,7 @@ failure cases listed.
 
 If there are failures, the program will print a list of the failing
 cases and finish with a `STOP` error. The cases (and diagrams of
-expected timings) can be found in [./docs/Annoying 6502
-Cases.xlsx](./docs/Annoying 6502 Cases.xlsx).
+expected timings) can be found in [./docs/Annoying 6502 Cases.xlsx](./docs/Annoying 6502 Cases.xlsx).
 
 For more about the PFA/FFA terminology, see [./docs/6502 Dead
 Cycles.pdf](./docs/6502 Dead Cycles.pdf).
@@ -31,6 +30,7 @@ Cycles.pdf](./docs/6502 Dead Cycles.pdf).
 For more about the 1 MHz access timing on the BBC B (which applies to
 the Master too), see p9 of
 [./docs/BBCServiceManual.pdf](./docs/BBCServiceManual.pdf).
+
 
 # licence
 
