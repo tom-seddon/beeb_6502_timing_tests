@@ -43,4 +43,4 @@ ci: _NAME:=$(shell git log -1 '--format=%cd-%h' '--date=format:%Y%m%d-%H%M%S')
 ci:
 	$(_V)$(MAKE) _build "SUFFIX=$(_NAME)"
 	$(_V)gh release create "$(_NAME)" --notes-file "docs/github_release_notes.txt"
-	$(_V)gh release upload "$(BUILD)/beeb_6502_timing_tests.$(_NAME).txt" "$(BUILD)/beeb_6502_timing_tests.$(_NAME).ssd"
+	$(_V)gh release upload "$(_NAME)" "$(BUILD)/beeb_6502_timing_tests.$(_NAME).txt" "$(BUILD)/beeb_6502_timing_tests.$(_NAME).ssd"
